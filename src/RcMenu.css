@@ -6,6 +6,8 @@
     align-items: center;
     justify-content: center;
     z-index: 1;
+    position: absolute;
+    top: 0;left:0;right:0;
 }
 
 .rc-menu-horizontal > .rc-menu-item, .rc-menu-horizontal > .rc-menu-submenu > .rc-menu-submenu-title{

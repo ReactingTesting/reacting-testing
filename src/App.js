@@ -27,10 +27,7 @@ class App extends Component {
           ☰
         </button>
 
-        <RcMenu
-          toggleMenu={this.toggleSidebarMenu.bind(this)}
-          menuIsExpanded={this.state.menuIsExpanded}
-        />
+
         <div className="page-container">
           <Route path="/timer" component={Timer} />
           <Route path="/quiz" component={Quiz} />
@@ -39,7 +36,10 @@ class App extends Component {
           <Route path="/bingo" component={Bingo} />
           <Route path="/videos" component={VideoPage} />
         </div>
-
+        <RcMenu
+          toggleMenu={this.toggleSidebarMenu.bind(this)}
+          menuIsExpanded={this.state.menuIsExpanded}
+        />
         <div className="footer">
           <div className="footer-content">
             Run with{" "}
