@@ -9,7 +9,6 @@ import RcMenu from "./RcMenu";
 import Bingo from "./Bingo";
 import VideoPage from "./VideoPage";
 
-
 class App extends Component {
   state = { menuIsExpanded: false };
 
@@ -41,7 +40,25 @@ class App extends Component {
           <Route path="/videos" component={VideoPage} />
         </div>
 
-
+        <div className="footer">
+          <div className="footer-content">
+            Run with{" "}
+            <a
+              href="https://www.netlify.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Netlify</a>{"  |  "}
+            Code on{" "}
+            <a
+              href="https://github.com/ReactingTesting/reacting-testing"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              GitHub
+            </a>
+          </div>
+        </div>
       </>
     );
   }
