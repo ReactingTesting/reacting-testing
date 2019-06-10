@@ -239,7 +239,7 @@ export function getSelection(selector) {
       return ["S2E0", "S3E0", "S4E0", "S5E0", "S6E0", "S7E0", "S8E0"];
 
     case helperVar.SERIES_FINALE:
-      return ["S1E6", "S2E8", "S3E8", "S4E8", "S5E8", "S6E8", "S7E8", "S8E8"];
+      return ["S1E10", "S2E10", "S3E10", "S4E10", "S5E10", "S6E10", "S7E10", "S8E10"];
 
     case helperVar.FAVOURITES:
       return [
