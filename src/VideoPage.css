@@ -1,0 +1,38 @@
+.youtube-page-container{
+    display: flex;
+    flex-direction: column;
+    max-width: 560px;
+}
+
+.podcast-page-container{
+    display: flex;
+    flex-direction: column;
+    max-width: 40rem;
+}
+
+.video-frame{
+    max-width: 98vw;
+    max-height: 55vw;
+    width:560px;
+    height:315px;
+    margin-bottom: 3rem;
+
+}
+
+.youtube-text{
+    text-align: left;
+    margin-bottom: .5rem;
+    margin-top: .0rem;
+}
+
+.podcast-title{
+    margin-top: 1rem;
+}
+
+
+@media screen and (max-width: 600px) {
+    .youtube-page-container{
+        max-width: 95vw;
+    }
+}
+  
